@@ -1,0 +1,11 @@
+build/
+.projectile
+resources/Map2.txt
+#src/Jewel.cpp
+#src/Jewel.h
+TEST.txt
+TEMP_MAP.txt
+TEST.data
+#HiScores.bin
+compile_commands.json
+.cache/
