@@ -19,6 +19,7 @@ $(TARGET): $(OBJFILES)
 	$(CC) $(CFLAGS) $(addprefix $(ODIR)/, $(addsuffix .o, $^)) -o $(ODIR)/$(TARGET) $(LDFLAGS)
 
 $(OBJFILES): 
+	@mkdir -p $(ODIR)
 	$(CC) $(CFLAGS) -c ./$(SRC_DIR)/$@.cpp -o $(ODIR)/$@.o $(LDFLAGS)
 
 debug: $(TARGET)
