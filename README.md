@@ -8,3 +8,7 @@ This game was an university assignment in which we had to create a C++ maze game
 </div>
 
 You can run this game under any OS which has installed `make` and `ncurses library`, if so you can simply run `make` inside of the root of the repository.
+
+## Bugfixes 
+
+- Changed the initialization of the shared_ptr in the `Engine.cpp` in order that the game can start.

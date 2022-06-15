@@ -20,7 +20,7 @@ Engine::Engine(const char *mapFilePath) {
     this-> loadMapFromFile(mapFilePath);
 
     this-> keyPressCode = 0;
-    this-> tempXY = std::make_shared<int[]>(2);
+    this-> tempXY = std::shared_ptr<int[]>(new int[2]);
     srand(time(NULL));
 }
 
