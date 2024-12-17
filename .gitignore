@@ -9,3 +9,4 @@ TEST.data
 #HiScores.bin
 compile_commands.json
 .cache/
+cmake_wrapper.sh

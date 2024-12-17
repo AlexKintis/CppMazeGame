@@ -7,8 +7,20 @@ This game was an university assignment in which we had to create a C++ maze game
 <img src="https://github.com/AlexKintis/CppNCursesMazeGame/blob/main/Images/GamePlay.png" width="45%" alt="Chart window">
 </div>
 
-You can run this game under any OS which has installed `make` and `ncurses library`, if so you can simply run `make` inside of the root of the repository.
+You can run this game under any OS which has installed `cmake` and `ncurses library`.
 
-## Bugfixes 
+## How to run
+
+1. Clone the repository
+2. Run the following commands into the root of the project:
+
+    ```bash
+    cmake -S . -B "build"
+    cmake --build "build"
+    ```
+
+3. Run the game with `./build/potereides`
+
+## Bugfixes
 
 - Changed the initialization of the shared_ptr in the `Engine.cpp` in order that the game can start.
